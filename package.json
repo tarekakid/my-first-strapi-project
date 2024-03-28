@@ -1,0 +1,45 @@
+{
+  "name": "voice-app",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.9",
+    "@react-native-async-storage/async-storage": "^1.23.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/native": "^6.1.17",
+    "@react-navigation/stack": "^6.3.29",
+    "@strapi/plugin-cloud": "4.21.1",
+    "@strapi/plugin-graphql": "^4.21.1",
+    "@strapi/plugin-i18n": "4.21.1",
+    "@strapi/plugin-users-permissions": "4.21.1",
+    "@strapi/strapi": "4.21.1",
+    "apollo-link-error": "^1.1.13",
+    "better-sqlite3": "8.6.0",
+    "expo-av": "^13.10.5",
+    "expo-file-system": "^16.0.8",
+    "graphql": "^15.8.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-native-vector-icons": "^10.0.3",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.3"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "c34c608d-05e0-4216-84d1-0b17401b9d10"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

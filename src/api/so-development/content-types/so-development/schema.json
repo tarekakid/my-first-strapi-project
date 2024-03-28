@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "so_developments",
+  "info": {
+    "singularName": "so-development",
+    "pluralName": "so-developments",
+    "displayName": "SO Development",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "recording_name": {
+      "type": "text"
+    },
+    "recording_description": {
+      "type": "blocks"
+    },
+    "date_created": {
+      "type": "date"
+    },
+    "recording": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "so_development": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::so-development.so-development"
+    }
+  }
+}
